@@ -1,0 +1,708 @@
+/*
+* @Author: dell
+* @Date:   2018-05-26 08:57:28
+* @Last Modified by:   dell
+* @Last Modified time: 2018-05-27 16:42:04
+*/
+@import url(base.css);
+header{
+	width: 100%;
+	height: 40px;
+	background: #444444;
+}
+header main{
+	/* width: 976px; */
+	height: 100%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+header main div{
+	font-size: 10px;
+	color: #a8a8aa;
+}
+.banner{
+	width: 100%;
+	height: 44px;
+	background: #323232;
+}
+.list{
+	/* width: 1000px; */
+	height: 100%;
+	margin: 0 auto;
+}
+.list ul{
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.list ul li a{
+	color: #ffffff;
+	font-size: 12px;
+}
+.banner1{
+	width: 100%;
+	height: 44px;
+	background: #323232;
+	display: none;
+}
+.lst{
+	width: 100%;
+	height: auto;
+}
+.lst ul{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+.lst ul li{
+	width: 100%;
+	/* height: 580px; */
+	margin-bottom: 12px;
+}
+.iphonex a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	position: relative;
+}
+.iphonex h1{
+    /*  font-size: 56px;
+     line-height: 60px; */
+     font-weight: 600;
+     text-align: center;
+     color: black;
+    /*  padding-top: 88px; */
+}
+.iphonex h2{
+	/* font-size: 27px;
+	line-height: 31px; */
+	font-weight: 400;
+	text-align: center;
+	/* margin-top: 8px; */
+	color: #111;
+}
+.iphonex div{
+	/* width: 990px;
+	height: 194px;
+	background: url(../img/iphone_x_large.jpg) no-repeat center/contain; */
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	right: auto;
+	left: calc(50% + 0px);
+	bottom: 19%;
+	transform: translatex(-50%);
+}
+.iphone8 {
+	position: relative;
+}
+.iphone8 span{
+	color: white;
+	font-size: 17px;
+	font-weight: 400;
+	padding: 4px 15px;
+	border: 1px solid white;
+	border-radius: 4px;
+	position: absolute;
+	left: calc(50% + 0px);
+	transform: translatex(-50%);
+/* 	top: 8%; */
+}
+.iphone8 h3{
+	margin-bottom: 10px;
+/* 	margin-top: 85px; */
+	color: white;
+	text-align: center;
+/* 	font-size: 56px;
+	line-height: 60px;
+	margin-left: 106px; */
+}
+.lr{
+	width: 100%;
+	/* height: 25px; */
+	margin-top: 20px;
+}
+.lr a{
+	color: white;
+	/* margin-left: 595px; */
+}
+.lr a:hover{
+	text-decoration: underline;
+
+}
+.pic{
+	/* width: 334px;
+	height: 335px; */
+	position: absolute;
+	left: calc(50% + 0px);
+	transform: translatex(-50%);
+	bottom: 0;
+	/* background: url(../img/hero_large.png) no-repeat center/cover; */
+}
+.ipad a{
+	width: 100%;
+	height: 100%;
+	display: block;
+	position: relative;
+	overflow: hidden;
+}
+.wrap{
+	width: 100%;
+	height: auto;
+	/* margin-top: 38px; */
+}
+.wrap h2{
+	/* font-size: 56px;
+	line-height: 60px; */
+	text-align: center;
+	color: #111;
+	font-weight: 600;
+}
+.wrap h3{
+	/* margin-top: 6px; */
+	text-align: center;
+/* 	line-height: 31px;
+	font-size: 27px; */
+	font-weight: 400;
+	color: #111;
+}
+.cip{
+	/* width: 1068px;
+	height: 396px;
+	background: url(../img/ipad_large.jpg) no-repeat center/cover; */
+	position: absolute;
+	left: calc(50% + 0px);
+	transform: translatex(-50%);
+	bottom: 0;
+}
+.ss{
+	width: 100%;
+	height: auto;
+}
+.ss ul{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-content: space-between;
+	padding: 12px;
+	box-sizing: border-box;
+}
+.ss ul li{
+	width: 50%;
+	/* height: 592px; */
+	padding: 6px;
+	
+	box-sizing: border-box;
+	/* background: url(../img/wwdc_large.jpg) no-repeat center/cover; */
+}
+.ss a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+/* 	background: url(../img/wwdc_large.jpg) no-repeat center/cover; */
+}
+.txt{
+	width: 100%;
+/* 	height: 152px; */
+}
+.txt h4{
+	display: block;
+	/* width: 430px;
+	height: 30px; */
+	margin: 0 auto;
+	/* margin-top: 59px;
+	margin-bottom: 11px;
+	background: url(../img/wwdc_large.png) no-repeat center/contain; */
+	text-align: center;
+}
+.txt h5{
+	display: block;
+	/* width: 430px;
+	height: 26px; */
+	margin: 0 auto;
+	/* margin-top: 4px; */
+	text-align: center;
+	l/* ine-height: 26px;
+	font-size: 21px; */
+	font-weight: 400;
+	color: #111;
+}
+footer{
+	width: 100%;
+	height: auto;
+}
+.ee{
+	/* width: 980px; */
+	height: 447px;
+	margin: 0 auto;
+	
+	padding: 0 22px;
+}
+.ea{
+	width: 100%;
+
+	
+	padding-top: 40px;
+}
+.ea ul{
+	width: 100%;
+
+	display: flex;
+	justify-content: space-between;
+}
+.ea ul li{
+	width: 25%;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+}
+.ea span{
+	width: 100%;
+	height: 16px;
+	font-size: 11px;
+	line-height: 16px;
+	font-weight: 600;
+	color: #111;
+	margin-bottom: 9.6px;
+}
+.ea a{
+	display: block;
+	width: 100%;
+	height: 16px;
+	font-size: 10px;
+	line-height: 16px;
+	color: #111;
+	margin-bottom: 9.6px;
+}
+.ea a:hover{
+	text-decoration: underline;
+}
+.eb{
+	width: 100%;
+	height: 79px;
+	margin-top: 24px;
+
+	margin-bottom: 20px;
+}
+.ebt{
+	width: 100%;
+	height: 16px;
+	font-size: 10px;
+	line-height: 16px;
+	padding-bottom: 8px;
+	border-bottom: 1px solid #d6d6d6;
+	color: #888;
+	margin-bottom: 7px;
+
+}
+.ebt a:hover{
+    text-decoration: underline;
+}
+.ebm{
+	width: 100%;
+	height: 26px;
+	font-size: 10px;
+	line-height: 26px;
+	color: #888;
+}
+.ebm a:hover{
+    text-decoration: underline;
+}
+.ebb{
+	width: 100%;
+	height: 16px;
+	font-size: 10px;
+	line-height: 16px;
+	color: #555;
+}
+.end{
+	width: 100%;
+	height: 423px;
+	padding: 0 16px;
+	box-sizing: border-box;
+	display: none;
+}
+.endt{
+	width: 100%;
+	height: 260px;
+	padding-top: 1px;
+	box-sizing: border-box;
+}
+.endt ul{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+}
+.endt ul li{
+	width: 100%;
+	height: 16px;
+	padding: 10px 0;
+	line-height: 16px;
+	font-size: 12px;
+	color: black;
+	border-bottom: 1px solid #d6d6d6;
+}
+.endt ul li a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	line-height: 16px;
+	font-size: 14px;
+	color: black;
+}
+.endb{
+	width: 100%;
+	height: 163px;
+	padding-top: 17px;
+	box-sizing: border-box;
+}
+.gend{
+	width: 100%;
+	height: 16px;
+	line-height: 16px;
+	font-size: 10px;
+	padding-bottom: 8px;
+	margin-bottom:7px; 
+	color: #888;
+}
+.zg{
+	width: 100%;
+	height: 16px;
+	line-height: 16px;
+	font-size: 10px;
+	color: #888;
+}
+.zg span a{
+	
+}
+.zg span a:hover{
+	text-decoration: underline;
+}
+@media screen  and (min-width: 1024px){
+	header main{
+		width: 976px;
+	}
+	.list{
+		width: 1000px;
+	}
+	.lst ul li{
+		height: 580px;
+	}
+	.iphonex h1{
+     font-size: 56px;
+     line-height: 60px;
+     padding-top: 88px;
+	}
+	.iphonex h2{
+	font-size: 27px;
+	line-height: 31px;
+	margin-top: 8px;
+	}
+	.iphonex div{
+	width: 990px;
+	height: 194px;
+	background: url(../img/iphone_x_large.jpg) no-repeat center/contain;
+	
+	bottom: 19%;
+	}
+	.iphone8 span{
+	top: 8%;
+	}
+	.iphone8 h3{
+	margin-top: 85px;
+	font-size: 56px;
+	line-height: 60px;
+	margin-left: 106px;
+	}
+	.lr{
+	
+		height: 25px;
+	
+	}
+	.lr a{
+	
+		margin-left: 43%;
+	}
+	.pic{
+	width: 334px;
+	height: 335px;
+	background: url(../img/hero_large.png) no-repeat center/cover;
+	}
+	.iphone8 h4{
+       display: none;
+	}
+	.wrap{
+		margin-top: 38px;
+	}
+	.wrap h2{
+		font-size: 56px;
+		line-height: 60px;
+	}
+	.wrap h3{
+		margin-top: 6px;
+		line-height: 31px;
+		font-size: 27px;
+	}
+	.cip{
+		width: 1068px;
+		height: 396px;
+		background: url(../img/ipad_large.jpg) no-repeat center/cover;
+	}
+	.ss ul li{
+	height: 592px;
+	}
+	.ss a{
+		
+		background: url(../img/wwdc_large.jpg) no-repeat center/cover;
+	}
+	.txt{
+		
+		height: 152px;
+    }
+    .txt h4{
+		width: 430px;
+		height: 30px;
+		margin-top: 59px;
+		margin-bottom: 11px;
+		background: url(../img/wwdc_large.png) no-repeat center/contain;
+	}
+	.txt h5{
+		width: 430px;
+		height: 26px;
+		margin-top: 4px;
+		line-height: 26px;
+		font-size: 21px;	
+	}
+	.ee{
+		width: 980px;
+	}
+}
+@media screen  and (max-width: 1024px){
+	header main{
+		padding-right: 22px;
+	}
+	.list{
+
+	}
+	.list ul{
+		padding: 0 22px;
+	}
+	.lst ul li{
+		height: 569px;
+	}
+	.iphonex h1{
+     font-size: 44px;
+     line-height: 48px;
+     padding-top: 101px;
+	}
+	.iphonex h2{
+	font-size: 24px;
+	line-height: 28px;
+	margin-top: 6px;
+	}
+	.iphonex div{
+	width: 704px;
+	height: 148px;
+	background: url(../img/iphone_x_medium.jpg) no-repeat center/contain;
+	
+	bottom: 25%;
+	}
+	.iphone8 span{
+	top: 9%;
+	}
+	.iphone8 h3{
+	margin-top: 92px;
+	font-size: 44px;
+	line-height: 48px;
+	margin-left: 81px;
+	}
+	.iphone8 h4{
+       display: none;
+	}
+	.lr{
+	
+		height: 27px;
+	
+	}
+	.lr a{
+	
+		margin-left: 41%;
+	}
+	.pic{
+	width: 320px;
+	height: 327px;
+	background: url(../img/hero_medium.png) no-repeat center/cover;
+	}
+	.wrap{
+		margin-top: 78px;
+	}
+	.wrap h2{
+		font-size: 44px;
+		line-height: 48px;
+	}
+	.wrap h3{
+		margin-top: 5px;
+		line-height: 28px;
+		font-size: 24px;
+	}
+	.cip{
+		width: 736px;
+		height: 384px;
+		background: url(../img/ipad_medium.jpg) no-repeat center/cover;
+	}
+	.ss ul li{
+	height: 490px;
+	}
+	.ss a{
+		
+		background: url(../img/wwdc_medium.jpg) no-repeat center/cover;
+	}
+	.txt{
+		
+		height: 127px;
+    }
+     .txt h4{
+		width: 330px;
+		height: 24px;
+		margin-top: 47px;
+		margin-bottom: 10px;
+		background: url(../img/wwdc_medium.png) no-repeat center/contain;
+	}
+	.txt h5{
+		width: 338px;
+		height: 23px;
+		margin-top: 3px;
+		line-height: 23px;
+		font-size: 19px;	
+	}
+	.ee{
+		width: 100%;
+		padding: 0 22px;
+		box-sizing: border-box;
+	}
+}
+@media screen and (max-width: 768px){
+	.banner1{
+		display: block;
+	}
+	.banner{
+		display: none;
+	}
+	.lst ul li{
+		height: 500px;
+	}
+	.iphonex h1{
+     font-size: 36px;
+     line-height: 32px;
+     padding-top: 40px;
+	}
+	.iphonex h2{
+	font-size: 19px;
+	line-height: 27px;
+	margin-top: 2px;
+	}
+	.iphonex div{
+	width: 167px;
+	height: 333px;
+	background: url(../img/iphone_x_small.jpg) no-repeat center/contain;
+	
+	bottom: 7%;
+	}
+	.iphone8 span{
+	top: 9%;
+	font-size: 12px;
+	}
+	.iphone8 h4{
+		font-size: 28px;
+		line-height: 36px;
+		text-align: center;
+		color: white;
+		margin-top: 72px;
+	}
+	.lr{
+		height: 25px;
+	}
+	.lr a{
+	
+		margin-left: 30%;
+	}
+	.pic{
+	width: 282px;
+	height: 327px;
+	background: url(../img/hero_small.png) no-repeat center/cover;
+	}
+	.iphone8 h3{
+		display:none ;
+	}
+	.iphone8 h4{
+		display: block;
+	}
+	.wrap{
+		margin-top: 36px;
+	}
+	.wrap h2{
+		font-size: 32px;
+		line-height: 36px;
+	}
+	.wrap h3{
+		width: 194px;
+		margin-top: 2px;
+		line-height: 27px;
+		font-size: 19px;
+		margin-left: 24%;
+	}
+	.cip{
+		width: 320px;
+		height: 367px;
+		background: url(../img/ipad_small.jpg) no-repeat center/cover;
+	}
+	.ss ul{
+		padding: 0;
+	}
+	.ss ul li{
+	height: 500px;
+	width: 100%;
+	padding-bottom:12px;
+	}
+	.ss a{
+		
+		background: url(../img/wwdc_small.jpg) no-repeat center/cover;
+	}
+	.txt{
+		
+		height: 123px;
+    }
+    .txt h4{
+		width: 100%;
+		height: 24px;
+		margin-top: 43px;
+		margin-bottom: 10px;
+		margin-left: auto;
+		margin-right: auto;
+		background: url(../img/wwdc_small.png) no-repeat center/contain;
+	}
+	.txt h5{
+		width:100%;
+		height: 23px;
+		margin-top: 3px;
+		line-height: 23px;
+		font-size: 19px;	
+	}
+	footer{
+		display: none;
+	}
+	.end{
+		display: block;
+	}
+}
